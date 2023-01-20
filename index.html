@@ -4,9 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conventional Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/00996a7f45.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header class="overflow-hidden">
+       <nav class="navbar navbar-expand-lg m-3 gap-5">
+        <a class="navbar-brand" href="#"><strong>Abacus Convention Center</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+       </nav>
+       <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/banner.png" alt="First slide">
+            <div class="carousel-caption d-none d-md-block  p-lg-12 pb-lg-5">
+              <h1 class="sm-h1">The perfect venue for your
+                next event</h1>
+              <p class="mb-1 mb-lg-3 sm-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+              <button type="button" class="btn btn-light text-primary">Book Now</button>
+             </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/banner.png" alt="First slide">
+            <div class="carousel-caption d-md-block  p-lg-12 pb-lg-5">
+              <h1 class="sm-h1">The perfect venue for your
+                next event</h1>
+              <p class="mb-1 mb-lg-3 sm-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+              <button type="button" class="btn btn-light text-primary">Book Now</button>
+             </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/banner.png" alt="First slide">
+            <div class="carousel-caption d-md-block  p-lg-12 pb-lg-5">
+              <h1 class="sm-h1">The perfect ienue for your
+                next event</h1>
+              <p class="mb-1 mb-lg-3 sm-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+              <button type="button" class="btn btn-light text-primary">Book Now</button>
+             </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>     
+    </header>
+
+    <section class="0verflow-hidden d-flex flex-column flex-xl-row flex-lg-row gap-5 m-0 p-4 p-lg-5 align-items-center w-100">
+      <div><img src="images/wedding.png" class="sm-w-100" alt=""></div>
+      <div class="position-relative"><h2><strong>Every moment is Precious </strong></h2>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <button type="button" class="d-flex align-items-center gap-1 btn btn-primary"><p class="mb-0">Explore our album</p><i class="fa-solid fa-arrow-right"></i></button>
+       <div class="d-flex gap-2 align-items-center position-absolute top-20 end-0 shadow p-1 mb-5 bg-white border-start border-5 border-primary"><i class="text-primary fa-solid fa-gift"></i> <p class="m-2">20% off on next booking</p><button type="button" class="close" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button></div>
+      </div>
+    </section>
+   
+    <section>
+      <h2 class="text-center"><strong>Our package</strong></h2>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <link rel="stylesheet" href="styles/js/bootstrap.min.js">
 </body>
 </html>
